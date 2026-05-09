@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: "UbuntuRegular";
+    src: url("/public/assets/fonts/ubuntu/Ubuntu-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "UbuntuMedium";
+    src: url("/public/assets/fonts/ubuntu/Ubuntu-Medium.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "UbuntuBold";
+    src: url("/public/assets/fonts/ubuntu/Ubuntu-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@theme {
+    --font-ubuntuRegular: UbuntuRegular;
+    --font-ubuntuMedium: UbuntuMedium;
+    --font-ubuntuBold: UbuntuBold;
+
+    --breakpoint-xxs: 320px;
+    --breakpoint-xs: 480px;
+
+    --color-primary: #0075FF;
+    --color-secondary: #070C28;
+    --color-tertiary: #1B1F5D;
+}
+
+@layer base {
+    body {
+        background-image: radial-gradient(circle, #2f38ac, #043188, #002763, #001b3f, #030c1d);
+        background-repeat: no-repeat;
+    }
+}
+
+@layer utilities {
+    .jellyfish {
+        background: url("../public/assets/images/elements/jellyfish.webp") no-repeat center / cover;
+    }
+    .introBg {
+        background: url("../public/assets/images/elements/profile-bg.webp") no-repeat center / cover;
+    }
+    .creditBg {
+        background: url("../public/assets/images/elements/cardBg.webp") no-repeat top left;
+    }
+}

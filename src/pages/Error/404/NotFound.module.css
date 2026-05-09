@@ -1,7 +1,8 @@
-.label {
-    color: #fff;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: capitalize;
+@import "tailwindcss";
+
+@layer utilities {
+    .notfound {
+        background: #2D33A1;
+        background: radial-gradient(circle, rgba(45, 51, 161, 1) 0%, rgba(3, 12, 29, 1) 100%);
+    }
 }

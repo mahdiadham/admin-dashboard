@@ -1,3 +1,762 @@
 {
-    
+    "menu": [
+        {
+            "id": 1,
+            "title": "dashboard",
+            "icon": "IoHome",
+            "link": "/"
+        },
+        {
+            "id": 2,
+            "title": "tables",
+            "icon": "IoStatsChart",
+            "link": "/tables"
+        },
+        {
+            "id": 3,
+            "title": "billing",
+            "icon": "FaCreditCard",
+            "link": "/billing"
+        },
+        {
+            "id": 4,
+            "title": "profile",
+            "icon": "FaUser",
+            "link": "/profile"
+        }
+    ],
+    "infoCard": [
+        {
+            "id": 1,
+            "title": "today's money",
+            "value": 53000,
+            "profit": 55,
+            "icon": "IoWallet",
+            "cash": true
+        },
+        {
+            "id": 2,
+            "title": "today's users",
+            "value": 2300,
+            "profit": 3,
+            "icon": "GiEarthAmerica",
+            "cash": false
+        },
+        {
+            "id": 3,
+            "title": "new clients",
+            "value": 3462,
+            "profit": -2,
+            "icon": "IoDocument",
+            "cash": false
+        },
+        {
+            "id": 4,
+            "title": "total sales",
+            "value": 103430,
+            "profit": 5,
+            "icon": "FaCartShopping",
+            "cash": true
+        }
+    ],
+    "profile": {
+        "fullname": "mark johnson",
+        "logo": "/assets/images/elements/profile-logo.webp",
+        "mobile": "1231234123",
+        "countryCode": "44",
+        "email": "mark@simmmple.com",
+        "location": "united states",
+        "description": "Hi, I’m Mark Johnson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality).",
+        "social": [
+            {
+                "id": 1,
+                "name": "facebook",
+                "link": "https://www.facebook.com/CreativeTim",
+                "icon": "FaFacebookSquare"
+            },
+            {
+                "id": 2,
+                "name": "x",
+                "link": "https://x.com/creativetim",
+                "icon": "FaTwitter"
+            },
+            {
+                "id": 3,
+                "name": "instagram",
+                "link": "https://www.instagram.com/creativetimofficial",
+                "icon": "FaInstagram"
+            }
+        ]
+    },
+    "satisfactionRate": {
+        "title": "satisfaction rate",
+        "description": "from all projects",
+        "percent": 80,
+        "from": 0,
+        "to": 100,
+        "base": "based on likes"
+    },
+    "referralTracking": {
+        "title": "referral tracking",
+        "percent": 75,
+        "base": "total Score",
+        "bonus": 1465,
+        "invited": 145
+    },
+    "salesPlatform": {
+        "title": "sales overview",
+        "mobileApps": {
+            "name": "mobile apps",
+            "value": [ 500, 250, 300, 220, 500, 250, 300, 230, 300, 350, 250, 400 ]
+        },
+        "websites": {
+            "name": "websites",
+            "value": [ 200, 230, 300, 350, 370, 420, 550, 350, 400, 500, 330, 550 ]
+        },
+        "profit": 5
+    },
+    "sales": [ 330000, 250000, 110000, 300000, 490000, 350000, 270000, 130000, 425000 ],
+    "overviewData": {
+        "activeUsers": 23,
+        "data": [
+            {
+                "id": 1,
+                "name": "users",
+                "value": 32984,
+                "max": 100000,
+                "icon": "IoWallet",
+                "cash": false
+            },
+            {
+                "id": 2,
+                "name": "clicks",
+                "value": 2420000,
+                "max": 5000000,
+                "icon": "IoIosRocket",
+                "cash": false
+            },
+            {
+                "id": 3,
+                "name": "total sales",
+                "value": 2655000,
+                "max": 5000000,
+                "icon": "FaCartShopping",
+                "cash": true
+            },
+            {
+                "id": 4,
+                "name": "items",
+                "value": 320,
+                "max": 600,
+                "icon": "AiFillTool",
+                "cash": false
+            }
+        ]
+    },
+    "projects": {
+        "title": "projects",
+        "done": 30,
+        "data": [
+            {
+                "id": 1,
+                "title": "chakra vision UI version",
+                "icon": "/assets/images/elements/adobexd.webp",
+                "members": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile2.webp"
+                    },
+                    {
+                        "id": 3,
+                        "profile": "/assets/images/elements/profile3.webp"
+                    },
+                    {
+                        "id": 4,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    }
+                ],
+                "budget": 14000,
+                "completion": 60
+            },
+            {
+                "id": 2,
+                "title": "add Progress track",
+                "icon": "/assets/images/elements/company1.webp",
+                "members": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile2.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    }
+                ],
+                "budget": 3000,
+                "completion": 10
+            },
+            {
+                "id": 3,
+                "title": "fix platform errors",
+                "icon": "/assets/images/elements/company2.webp",
+                "members": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile3.webp"
+                    }
+                ],
+                "budget": 0,
+                "completion": 100
+            },
+            {
+                "id": 4,
+                "title": "launch our mobile app",
+                "icon": "/assets/images/elements/spotify.webp",
+                "members": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile3.webp"
+                    },
+                    {
+                        "id": 3,
+                        "profile": "/assets/images/elements/profile2.webp"
+                    },
+                    {
+                        "id": 4,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    }
+                ],
+                "budget": 20500,
+                "completion": 100
+            },
+            {
+                "id": 5,
+                "title": "add the new pricing page",
+                "icon": "/assets/images/elements/company3.webp",
+                "members": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    }
+                ],
+                "budget": 500,
+                "completion": 25
+            },
+            {
+                "id": 6,
+                "title": "redesign new online shop",
+                "icon": "/assets/images/elements/company4.webp",
+                "members": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    }
+                ],
+                "budget": 2000,
+                "completion": 40
+            }
+        ]
+    },
+    "orders": {
+        "title": "orders overview",
+        "statistics": 30,
+        "data": [
+            {
+                "id": 1,
+                "title": "$2400, design changes",
+                "date": "22 DEC 7:20 PM",
+                "icon": "/assets/images/elements/bell.webp"
+            },
+            {
+                "id": 2,
+                "title": "new order #1832412",
+                "date": "21 DEC 11 PM",
+                "icon": "/assets/images/elements/html.webp"
+            },
+            {
+                "id": 3,
+                "title": "server payments for april",
+                "date": "21 DEC 9:34 PM",
+                "icon": "/assets/images/elements/basket.webp"
+            },
+            {
+                "id": 4,
+                "title": "new card added for order #4395133",
+                "date": "20 DEC 2:20 AM",
+                "icon": "/assets/images/elements/card.webp"
+            },
+            {
+                "id": 5,
+                "title": "new card added for order #4395133",
+                "date": "18 DEC 4:54 AM",
+                "icon": "/assets/images/elements/order.webp"
+            },
+            {
+                "id": 6,
+                "title": "new order #9583120",
+                "date": "17 DEC",
+                "icon": "/assets/images/elements/adobexd.webp"
+            }
+        ]
+    },
+    "footer": {
+        "ankerText": "made with ❤️ by mahdi adham",
+        "links": [
+            {
+                "id": 1,
+                "title": "marketplace",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "title": "blog",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "title": "license",
+                "url": "/"
+            }
+        ]
+    },
+    "authors": {
+        "title": "authors table",
+        "table": [
+            {
+                "id": 1,
+                "username": "esthera jackson",
+                "email": "esthera@simmmple.com",
+                "profile": "/assets/images/elements/profile4.webp",
+                "function": "manager",
+                "job": "organization",
+                "online": true,
+                "employed": "23/04/2018"
+            },
+            {
+                "id": 2,
+                "username": "alexa liras",
+                "email": "alexa@simmmple.com",
+                "profile": "/assets/images/elements/profile2.webp",
+                "function": "programmer",
+                "job": "developer",
+                "online": false,
+                "employed": "11/01/2019"
+            },
+            {
+                "id": 3,
+                "username": "laurent michael",
+                "email": "laurent@simmmple.com",
+                "profile": "/assets/images/elements/profile3.webp",
+                "function": "executive",
+                "job": "projects",
+                "online": true,
+                "employed": "19/09/2017"
+            },
+            {
+                "id": 4,
+                "username": "freduardo hill",
+                "email": "freduardo@simmmple.com",
+                "profile": "/assets/images/elements/profile1.webp",
+                "function": "programmer",
+                "job": "developer",
+                "online": true,
+                "employed": "24/12/2008"
+            },
+            {
+                "id": 5,
+                "username": "daniel thomas",
+                "email": "daniel@simmmple.com",
+                "profile": "/assets/images/elements/profile5.webp",
+                "function": "manager",
+                "job": "executive",
+                "online": false,
+                "employed": "04/10/2021"
+            },
+            {
+                "id": 6,
+                "username": "mark wilson",
+                "email": "mark@simmmple.com",
+                "profile": "/assets/images/elements/profile6.webp",
+                "function": "programmer",
+                "job": "developer",
+                "online": false,
+                "employed": "14/09/2020"
+            }
+        ]
+    },
+    "projectsTable": {
+        "title": "projects table",
+        "table": [
+            {
+                "id": 1,
+                "title": "chakra vision UI version",
+                "icon": "/assets/images/elements/adobexd.webp",
+                "budget": 14000,
+                "status": "working",
+                "completion": 60
+            },
+            {
+                "id": 2,
+                "title": "add Progress track",
+                "icon": "/assets/images/elements/company1.webp",
+                "budget": 3000,
+                "status": "done",
+                "completion": 100
+            },
+            {
+                "id": 3,
+                "title": "fix platform errors",
+                "icon": "/assets/images/elements/company2.webp",
+                "budget": 0,
+                "status": "canceled",
+                "completion": 30
+            },
+            {
+                "id": 4,
+                "title": "launch our mobile app",
+                "icon": "/assets/images/elements/spotify.webp",
+                "budget": 32000,
+                "status": "canceled",
+                "completion": 0
+            },
+            {
+                "id": 5,
+                "title": "add the new pricing page",
+                "icon": "/assets/images/elements/company3.webp",
+                "budget": 2300,
+                "status": "done",
+                "completion": 100
+            }
+        ]
+    },
+    "creditCard": {
+        "title": "vision UI",
+        "icon": "/assets/images/elements/visaIcon.webp",
+        "number": "7812213908237916",
+        "exp": "05/24",
+        "cvv": "128"
+    },
+    "creditBalance": {
+        "title": "credit balance",
+        "balance": 25215,
+        "img": "/assets/images/elements/path.webp",
+        "newest": [
+            {
+                "id": 1,
+                "title": "bill & taxes",
+                "date": "today, 16:36",
+                "stockValue": -154.50
+            }
+        ]
+    },
+    "paymentMethod": [
+        {
+            "id": 1,
+            "cardNumber": "7812213908237916",
+            "icon": "/assets/images/elements/visa-icon2.webp"
+        },
+        {
+            "id": 2,
+            "cardNumber": "7812213908237916",
+            "icon": "/assets/images/elements/visa-icon3.webp"
+        }
+    ],
+    "invoices": [
+        {
+            "id": 1,
+            "date": "march, 01, 2020",
+            "tag": "MS-415646",
+            "price": 180,
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "date": "february, 10, 2021",
+            "tag": "RV-126749",
+            "price": 250,
+            "link": "#"
+        },
+        {
+            "id": 3,
+            "date": "april, 05, 2020",
+            "tag": "QW-103578",
+            "price": 120,
+            "link": "#"
+        },
+        {
+            "id": 4,
+            "date": "june, 25, 2019",
+            "tag": "MS-415646",
+            "price": 180,
+            "link": "#"
+        },
+        {
+            "id": 5,
+            "date": "march, 01, 2019",
+            "tag": "AR-803481",
+            "price": 300,
+            "link": "#"
+        }
+    ],
+    "billingInfo": [
+        {
+            "id": 1,
+            "title": "oliver liam",
+            "companyName": "viking burrito",
+            "email": "oliver@burrito.com",
+            "VATNumber": "FRB1235476"
+        },
+        {
+            "id": 2,
+            "title": "lucas harper",
+            "companyName": "stone tech zone",
+            "email": "lucas@stone-tech.com",
+            "VATNumber": "FRB1235476"
+        },
+        {
+            "id": 3,
+            "title": "ethan james",
+            "companyName": "fiber notion",
+            "email": "ethan@fiber.com",
+            "VATNumber": "FRB1235476"
+        }
+    ],
+    "transactions": {
+        "title": "your transactions",
+        "date": "23 - 30 march 2020",
+        "newest": [
+            {
+                "id": 1,
+                "companyName": "netflix",
+                "date": "27 march 2020",
+                "time": "12:30 PM",
+                "price": -2500
+            },
+            {
+                "id": 2,
+                "companyName": "apple",
+                "date": "27 march 2020",
+                "time": "4:30 AM",
+                "price": 2000
+            }
+        ],
+        "yesterday": [
+            {
+                "id": 1,
+                "companyName": "stripe",
+                "date": "26 march 2020",
+                "time": "13:45 PM",
+                "price": 750
+            },
+            {
+                "id": 2,
+                "companyName": "hubSpot",
+                "date": "26 march 2020",
+                "time": "12:30 PM",
+                "price": 1000
+            },
+            {
+                "id": 3,
+                "companyName": "hubSpot",
+                "date": "26 march 2020",
+                "time": "08:30 AM",
+                "price": 2500
+            },
+            {
+                "id": 4,
+                "companyName": "webflow",
+                "date": "26 march 2020",
+                "time": "05:00 AM",
+                "price": 0
+            }
+        ]
+    },
+    "profileHeaderMenu": [
+        {
+            "id": 1,
+            "title": "overview",
+            "href": "overview",
+            "icon": "BsBoxFill"
+        },
+        {
+            "id": 2,
+            "title": "teams",
+            "href": "teams",
+            "icon": "FaUsers"
+        },
+        {
+            "id": 3,
+            "title": "projects",
+            "href": "projects",
+            "icon": "FaWrench"
+        }
+    ],
+    "carInformation": {
+        "title": "car information",
+        "batteryCharge": 68,
+        "fullChargeTime": 58,
+        "batteryHealth": {
+            "title": "battery health",
+            "value": "76%"
+        },
+        "efficiency": {
+            "title": "efficiency",
+            "value": "+20%",
+            "chart": {
+                "name": "mobile apps",
+                "value": [ 100, 250, 300, 220, 500, 250, 300, 230, 300, 350, 250, 400 ]
+            }
+        },
+        "consumption": {
+            "title": "consumption",
+            "value": "163W/km"
+        },
+        "distance": {
+            "title": "this week",
+            "value": "1.342km",
+            "chart": {
+                "name": "mobile apps",
+                "value": [ 100, 250, 300, 220, 500, 250, 300, 230, 300, 350, 250, 400 ]
+            }
+        }
+    },
+    "platformSettings": {
+        "title": "platform settings",
+        "account": [
+            {
+                "id": 1,
+                "label": "email me when someone follows me",
+                "checked": true
+            },
+            {
+                "id": 2,
+                "label": "email me when someone answers on my post",
+                "checked": false
+            },
+            {
+                "id": 3,
+                "label": "email me when someone mentions me",
+                "checked": false
+            }
+        ],
+        "application": [
+            {
+                "id": 1,
+                "label": "new launches and projects",
+                "checked": true
+            },
+            {
+                "id": 2,
+                "label": "monthly product updates",
+                "checked": true
+            },
+            {
+                "id": 3,
+                "label": "subscribe to newsletter",
+                "checked": true
+            },
+            {
+                "id": 4,
+                "label": "receive mails weekly",
+                "checked": false
+            }
+        ]
+    },
+    "portfolio": {
+        "title": "projects",
+        "description": "architects design houses",
+        "projects": [
+            {
+                "id": 1,
+                "tag": "project #1",
+                "title": "modern",
+                "description": "as uber works through a huge amount of internal management turmoil.",
+                "cover": "/assets/images/elements/portfolio1.webp",
+                "viewers": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile2.webp"
+                    },
+                    {
+                        "id": 3,
+                        "profile": "/assets/images/elements/profile3.webp"
+                    },
+                    {
+                        "id": 4,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "tag": "project #2",
+                "title": "scandinavian",
+                "description": "music is something that every person has his or her own specific opinion about.",
+                "cover": "/assets/images/elements/portfolio2.webp",
+                "viewers": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile3.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    },
+                    {
+                        "id": 3,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    },
+                    {
+                        "id": 4,
+                        "profile": "/assets/images/elements/profile2.webp"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "tag": "project #3",
+                "title": "minimalist",
+                "description": "different people have different taste, and various types of music.",
+                "cover": "/assets/images/elements/portfolio3.webp",
+                "viewers": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile3.webp"
+                    },
+                    {
+                        "id": 3,
+                        "profile": "/assets/images/elements/profile2.webp"
+                    },
+                    {
+                        "id": 4,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    }
+                ]
+            }
+        ]
+    }
 }

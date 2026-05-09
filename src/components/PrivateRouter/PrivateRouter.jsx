@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Outlet, useNavigate } from "react-router";
 
 const PrivateRouter = () => {
-    const [ isLogin, setIsLogin ] = useState(false);
+    const [ isLogin, setIsLogin ] = useState(true);
 
     const navigate = useNavigate();
 
@@ -12,9 +12,7 @@ const PrivateRouter = () => {
         });
     }, []);
 
-    return (
-        <Outlet />
-    );
+    return <Outlet />;
 }
 
 export default PrivateRouter;
