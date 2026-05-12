@@ -7,7 +7,7 @@ const Footer = () => {
     const { ankerText, links } = footer;
 
     return (
-        <footer className="flex justify-between items-center text-white capitalize py-8 font-ubuntuMedium">
+        <footer className="flex max-sm:flex-col sm:justify-between justify-center max-sm:gap-y-3 items-center text-white capitalize py-4 sm:py-8 font-ubuntuMedium">
             <span className="text-sm">
                 @ {ThisYear()} {ankerText}
             </span>

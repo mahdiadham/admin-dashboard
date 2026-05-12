@@ -2,7 +2,7 @@ import clsx from "clsx";
 
 const InfoCard = ({ title, value, Icon, profit, cash }) => {
     return (
-        <div className="bg-secondary rounded-2xl flex-1 py-3 px-4 font-ubuntuBold flex justify-between items-center">
+        <div className="bg-secondary rounded-2xl max-sm:w-full max-lg:w-[calc(50%-0.75rem)] lg:flex-1 py-3 px-4 font-ubuntuBold flex justify-between items-center">
             <div>
                 <span className="capitalize text-slate-500 text-[13px]">
                     {title}

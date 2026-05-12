@@ -10,7 +10,7 @@ const Billing = () => {
     return (
         <section>
             <div className="flex justify-between items-center gap-4 flex-wrap">
-                <div className="flex-2 flex justify-between items-center gap-4 flex-wrap">
+                <div className="flex-3/2 2xl:flex-2 flex justify-between items-center gap-4 flex-wrap">
                     <CreditCard data={creditCard} />
                     <CreditBalance data={creditBalance} />
                     <Payment data={paymentMethod} />

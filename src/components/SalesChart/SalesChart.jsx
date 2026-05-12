@@ -92,11 +92,11 @@ const SalesChart = () => {
     });
 
     return (
-        <div className="flex-[2.3] bg-linear-to-br from-secondary to-tertiary rounded-3xl h-112 p-6 flex flex-col justify-between items-start *:w-full">
-            <div className="bg-secondary rounded-3xl h-55 pb-2 pr-2">
-                <Chart options={options} series={series} type="bar" height="100%" />
+        <div className="flex-3/2 lg:flex-3 xl:flex-1 bg-linear-to-br from-secondary to-tertiary rounded-3xl md:h-112 xs:px-6 flex flex-col justify-between items-start *:w-full">
+            <div className="bg-secondary rounded-3xl h-55 pb-2 pr-2 xs:mt-6">
+                <Chart options={options} series={series} type="bar" height="100%" className="xl:max-w-149 max-xxs:w-65! max-xxs:mx-auto" />
             </div>
-            <div>
+            <div className="max-md:mt-5 max-xs:px-6">
                 <h4 className="capitalize text-xl text-white font-ubuntuBold">active users</h4>
                 <span className="text-slate-400 text-sm font-ubuntuMedium">
                     <span className={clsx("mr-1", activeUsers > 0 ? "text-green-500" : "text-red-500")}>
@@ -106,7 +106,7 @@ const SalesChart = () => {
                 </span>
             </div>
             <Activity mode={data?.length ? "visible" : "hidden"}>
-                <div className="flex justify-between items-center gap-10">
+                <div className="flex justify-between items-center gap-10 flex-wrap max-md:mt-5 max-xs:px-6 pb-6">
                     {data?.map(item => {
                         const icon = icons[item.icon];
                         const percent = (item.value / item.max) * 100;

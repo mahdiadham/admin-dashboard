@@ -92,12 +92,12 @@ const ChartBar = () => {
                     {description}
                 </span>
             </div>
-            <div className="size-85 mx-auto relative">
+            <div className="size-55 xxs:size-70 xs:size-80 mx-auto relative">
                 <Chart options={options} series={series} type="radialBar" width={"100%"} height={"100%"} />
                 <div className="bg-primary rounded-full p-3 size-13 text-white text-center -translate-1/2 absolute top-22 left-1/2">
                     <FaLaugh className="size-full" />
                 </div>
-                <div className="bg-secondary w-full rounded-2xl p-4 absolute bottom-5 flex justify-between items-stretch text-slate-400 text-sm">
+                <div className="bg-secondary w-full rounded-2xl p-4 absolute bottom-0 xxs:bottom-5 flex justify-between items-stretch text-slate-400 text-sm">
                     <span>
                         {from}%
                     </span>

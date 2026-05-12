@@ -198,16 +198,16 @@ const CarInfo = () => {
     const chargeMinute = Math.floor(fullChargeTime % 60);
 
     return (
-        <div className="p-6 rounded-3xl bg-linear-to-br from-secondary to-tertiary flex-1/3 h-100">
+        <div className="p-6 rounded-3xl bg-linear-to-br from-secondary to-tertiary flex-1/2 lg:flex-1/3 2xl:h-100">
             <h4 className="text-white text-xl capitalize font-ubuntuBold">
                 {title}
             </h4>
             <span className="text-slate-400 capitalize mt-2 block text-sm">
                 hello, {fullname}! your car is ready.
             </span>
-            <div className="flex justify-between items-center">
+            <div className="flex max-2xl:flex-col justify-between items-center max-2xl:gap-y-7">
                 <div className="flex flex-col justify-center items-center">
-                    <div className="relative size-60">
+                    <div className="relative size-55 xxs:size-60">
                         <Chart options={batteryOptions} series={batterySeries} type="radialBar" height={"100%"} width={"100%"} />
                         <div className="absolute -translate-1/2 top-1/2 left-1/2 flex flex-col justify-center items-center gap-y-2">
                             <BsFillLightningChargeFill className="size-6 text-emerald-500" />
@@ -223,22 +223,22 @@ const CarInfo = () => {
                     <span className="text-slate-400 capitalize font-ubuntuMedium text-sm mt-1">time to full charge</span>
                 </div>
                 <div className="flex justify-center items-center flex-wrap gap-5">
-                    <InfoCard title={batteryHealth?.title} value={batteryHealth?.value}>
+                    <InfoCard title={batteryHealth?.title} value={batteryHealth?.value} type={"icon"}>
                         <div className="rounded-2xl bg-primary size-14 overflow-hidden flex justify-center items-center">
                             <MdOutlineElectricCar className="text-white size-7" />
                         </div>
                     </InfoCard>
-                    <InfoCard title={efficiency?.title} value={efficiency?.value}>
+                    <InfoCard title={efficiency?.title} value={efficiency?.value} type={"chart"}>
                         <div className="h-14">
                             <Chart options={efficiencyOptions} series={efficiencySeries} type="area" height="140%" width={140} />
                         </div>
                     </InfoCard>
-                    <InfoCard title={consumption?.title} value={consumption?.value}>
+                    <InfoCard title={consumption?.title} value={consumption?.value} type={"icon"}>
                         <div className="rounded-2xl bg-primary size-14 overflow-hidden flex justify-center items-center">
                             <BsFillLightningChargeFill className="size-6 text-white" />
                         </div>
                     </InfoCard>
-                    <InfoCard title={distance?.title} value={distance?.value}>
+                    <InfoCard title={distance?.title} value={distance?.value} type={"chart"}>
                         <div className="h-14">
                             <Chart options={distanceOptions} series={distanceSeries} type="area" height="140%" width={115} />
                         </div>

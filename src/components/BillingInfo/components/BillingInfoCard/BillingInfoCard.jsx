@@ -10,18 +10,18 @@ const BillingInfoCard = ({ data }) => {
                 <h5 className="font-ubuntuMedium text-white capitalize">
                     {title}
                 </h5>
-                <div className="*:uppercase font-ubuntuBold flex justify-end items-center gap-x-10 text-sm *:cursor-pointer">
+                <div className="*:uppercase font-ubuntuBold flex justify-end items-center gap-x-5 sm:gap-x-10 text-sm *:cursor-pointer">
                     <button className="text-red-500 flex justify-center items-center gap-x-2">
                         <FaTrashCan className="size-4" />
-                        delete
+                        <span className="max-sm:hidden">delete</span>
                     </button>
                     <button className="text-slate-400 flex justify-center items-center gap-x-2">
                         <FaPen className="size-4" />
-                        edit
+                        <span className="max-sm:hidden">edit</span>
                     </button>
                 </div>
             </div>
-            <div className="flex flex-col justify-start items-start gap-y-2 text-slate-400 text-sm *:not-even:capitalize">
+            <div className="flex flex-col justify-start items-start gap-y-2 text-slate-400 text-xs xs:text-sm *:not-even:capitalize">
                 <span>
                     company name:
                     <span className="ml-2">

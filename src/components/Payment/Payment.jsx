@@ -6,17 +6,22 @@ const Payment = ({ data }) => {
         <div className="flex-1/2 rounded-3xl bg-linear-to-r from-secondary to-tertiary p-6">
             <div className="flex justify-between items-center text-white font-ubuntuBold mb-6">
                 <h5 className="text-lg capitalize">payment method</h5>
-                <button className="uppercase text-[13px] bg-primary rounded-xl py-3 px-6 active:scale-98 cursor-pointer">add new card</button>
+                <button className="uppercase text-[13px] bg-primary rounded-xl px-3 py-1 xs:py-3 xs:px-6 active:scale-98 cursor-pointer">
+                    <span className="max-xs:hidden">
+                        add new card
+                    </span>
+                    <span className="xs:hidden text-2xl">+</span>
+                </button>
             </div>
             <Activity mode={data?.length ? "visible" : "hidden"}>
                 <div className="flex justify-between items-center flex-wrap gap-4">
                     {data?.map(method => {
                         const firstDigits = method?.cardNumber?.slice(0, -4);
                         return (
-                            <div key={method?.id} className="flex-1/3 flex justify-between items-center p-4 bg-transparent border border-slate-500 rounded-2xl cursor-pointer">
-                                <div className="flex justify-start items-center gap-x-5">
+                            <div key={method?.id} className="flex-1/2 md:flex-1/3 flex justify-between items-center p-4 bg-transparent border border-slate-500 rounded-2xl cursor-pointer">
+                                <div className="flex max-xxs:flex-col! justify-start items-start xxs:items-center gap-y-3 gap-x-5">
                                     <img src={method?.icon} alt="icon" />
-                                    <span className="text-white font-ubuntuBold">
+                                    <span className="text-white font-ubuntuBold max-md:text-base max-lg:text-sm max-xs:text-xs!">
                                         {
                                             firstDigits
                                                 .replace(/\D/g, "")

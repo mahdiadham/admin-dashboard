@@ -12,7 +12,7 @@ const MainLayout = () => {
             <ScrollRestoration />
             <section className="flex justify-between items-start">
                 <Aside isOpen={isOpen} setIsOpen={setIsOpen} />
-                <div className={"w-full pr-5 max-md:px-5"}>
+                <div className={"pr-5 max-md:px-5 w-full overflow-x-hidden"}>
                     <Header isOpen={isOpen} setIsOpen={setIsOpen} />
                     <main className="mt-10">
                         <Outlet />

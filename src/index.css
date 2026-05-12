@@ -2,19 +2,19 @@
 
 @font-face {
     font-family: "UbuntuRegular";
-    src: url("/public/assets/fonts/ubuntu/Ubuntu-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/ubuntu/Ubuntu-Regular.ttf") format("truetype");
     font-display: swap;
 }
 
 @font-face {
     font-family: "UbuntuMedium";
-    src: url("/public/assets/fonts/ubuntu/Ubuntu-Medium.ttf") format("truetype");
+    src: url("/assets/fonts/ubuntu/Ubuntu-Medium.ttf") format("truetype");
     font-display: swap;
 }
 
 @font-face {
     font-family: "UbuntuBold";
-    src: url("/public/assets/fonts/ubuntu/Ubuntu-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/ubuntu/Ubuntu-Bold.ttf") format("truetype");
     font-display: swap;
 }
 
@@ -23,8 +23,10 @@
     --font-ubuntuMedium: UbuntuMedium;
     --font-ubuntuBold: UbuntuBold;
 
-    --breakpoint-xxs: 320px;
+    --breakpoint-vxs: 320px;
+    --breakpoint-xxs: 380px;
     --breakpoint-xs: 480px;
+    --breakpoint-3xl: 1810px;
 
     --color-primary: #0075FF;
     --color-secondary: #070C28;
@@ -40,12 +42,15 @@
 
 @layer utilities {
     .jellyfish {
-        background: url("../public/assets/images/elements/jellyfish.webp") no-repeat center / cover;
+        background: url("/assets/images/elements/jellyfish.webp") no-repeat center / cover;
     }
     .introBg {
-        background: url("../public/assets/images/elements/profile-bg.webp") no-repeat center / cover;
+        background: url("/assets/images/elements/profile-bg.webp") no-repeat center / cover;
     }
     .creditBg {
-        background: url("../public/assets/images/elements/cardBg.webp") no-repeat top left;
+        background: url("/assets/images/elements/cardBg.webp") no-repeat top left;
+        @media (max-width:1024px) {
+            background-size: cover;
+        }
     }
 }

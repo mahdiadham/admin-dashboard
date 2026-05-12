@@ -7,7 +7,7 @@ const PortfolioCard = ({ data }) => {
     return (
         <div className="flex-1">
             <Link to={`?q=${tag}`}>
-                <img src={cover} alt="portfolio" className="rounded-2xl h-50" />
+                <img src={cover} alt="portfolio" className="rounded-2xl h-40 xxs:h-50 max-sm:mx-auto" />
             </Link>
             <div className="flex flex-col justify-start items-start mt-3 capitalize font-ubuntuMedium gap-y-2">
                 <span className="text-slate-400 text-xs">
@@ -16,7 +16,7 @@ const PortfolioCard = ({ data }) => {
                 <h5 className="text-white text-xl">
                     {title}
                 </h5>
-                <p className="text-slate-400 text-sm">
+                <p className="text-slate-400 text-sm line-clamp-2">
                     {description}
                 </p>
             </div>

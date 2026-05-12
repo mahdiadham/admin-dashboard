@@ -17,7 +17,7 @@ const Aside = ({ isOpen, setIsOpen }) => {
 
     return (
         <>
-            <aside className={"hidden md:w-max xl:w-90 h-screen sticky top-0 left-0 bottom-0 md:flex flex-col justify-start items-center py-5"}>
+            <aside className={"hidden md:w-max xl:w-90! h-screen sticky top-0 left-0 bottom-0 md:flex flex-col justify-start items-center py-5"}>
                 <Link to="/" className="flex justify-center items-center gap-x-2 mt-5 relative before:absolute before:top-10 before:w-full before:h-px before:bg-linear-to-r before:from-slate-500/5 before:via-slate-500 before:to-slate-500/5">
                     <img src={Logo} alt="Logo" />
                     <h3 className="max-xl:hidden uppercase tracking-widest bg-linear-to-r from-white via-white to-white/30 bg-clip-text text-transparent">

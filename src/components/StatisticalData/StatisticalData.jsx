@@ -5,12 +5,12 @@ const StatisticalData = ({ data, icon: Icon, percent }) => {
     const newValue = value > 1e6 ? `${(value / 1e6).toFixed(2).toLocaleString()}M` : value.toLocaleString();
 
     return (
-        <div className="flex-1 flex flex-col justify-around items-start">
-            <div className="flex justify-start items-center gap-x-3 capitalize text-slate-400 font-ubuntuMedium">
+        <div className="w-[calc(50%-1.3rem)] xs:w-[calc(25%-2rem)] 2xl:flex-1 flex flex-col justify-start items-start">
+            <div className="flex justify-start items-center gap-x-1 2xl:gap-x-3 capitalize text-slate-400 font-ubuntuMedium">
                 <div className="rounded-lg flex justify-center items-center bg-primary size-6 text-white *:size-3">
                     <Icon />
                 </div>
-                <span>
+                <span className="max-2xl:text-sm">
                     {name}
                 </span>
             </div>

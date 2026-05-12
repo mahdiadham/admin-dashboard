@@ -9,7 +9,7 @@ const CreditCard = ({ data }) => {
     }
 
     return (
-        <div className="flex-1/3 rounded-3xl creditBg p-8 h-65 flex flex-col justify-between items-start">
+        <div className="flex-1/2 lg:flex-1/3 rounded-3xl creditBg p-6 xxs:p-8 h-65 flex flex-col justify-between items-start">
             <div className="flex justify-between items-center w-full">
                 <h4 className="capitalize text-white text-xl font-ubuntuMedium">
                     {title}
@@ -17,7 +17,7 @@ const CreditCard = ({ data }) => {
                 <img src={icon} alt="icon" />
             </div>
             <div>
-                <span className="text-2xl text-white mb-4 block font-ubuntuMedium cursor-pointer" title="Copy Card Number" onClick={() => copyToClipboard(number)}>
+                <span className="text-lg xxs:text-xl xs:text-2xl text-white mb-4 block font-ubuntuMedium cursor-pointer" title="Copy Card Number" onClick={() => copyToClipboard(number)}>
                     {
                         number
                         .replace(/\D/g, "")

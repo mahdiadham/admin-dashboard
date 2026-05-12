@@ -7,12 +7,12 @@ const Transactions = () => {
     const { title, date, newest, yesterday } = transactions;
     
     return (
-        <div className="flex-1/3 h-156 rounded-3xl p-6 bg-linear-to-br from-secondary to-tertiary">
-            <div className="flex justify-between items-center font-ubuntuBold">
+        <div className="flex-1/2 lg:flex-2/5 xl:flex-1/3 h-auto xs:h-156 rounded-3xl p-6 bg-linear-to-br from-secondary to-tertiary">
+            <div className="flex max-xs:flex-col justify-start items-start xs:justify-between xs:items-center font-ubuntuBold gap-y-2">
                 <h4 className="text-white capitalize text-xl">
                     {title}
                 </h4>
-                <span className="capitalize text-slate-400 flex justify-end items-center gap-x-2">
+                <span className="capitalize text-slate-400 flex justify-end items-center gap-x-2 max-xs:text-sm">
                     <LuCalendarRange className="size-5 text-white" />
                     {date}
                 </span>

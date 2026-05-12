@@ -23,7 +23,7 @@ const SalesPlatformChart = () => {
             height: "100%",
             type: "area",
             toolbar: {
-                show: false,
+                show: true,
             },
         },
         dataLabels: {
@@ -93,8 +93,8 @@ const SalesPlatformChart = () => {
     });
 
     return (
-        <div className="flex-3 h-112 bg-linear-to-br from-secondary to-tertiary rounded-3xl p-6 flex flex-col justify-between items-start *:w-full">
-            <div>
+        <div className="flex-2 2xl:flex-[1.5] h-112 bg-linear-to-br from-secondary to-tertiary rounded-3xl py-6 flex flex-col justify-between items-start *:w-full">
+            <div className="px-6">
                 <h4 className="text-white text-xl capitalize font-ubuntuBold">
                     {title}
                 </h4>
@@ -105,7 +105,7 @@ const SalesPlatformChart = () => {
                     in {ThisYear()}
                 </span>
             </div>
-            <Chart options={options} series={series} type="area" height="80%" />
+            <Chart options={options} series={series} type="area" height="80%" className="max-xxs:w-65! max-xs:w-80! xs:px-6 max-xs:mx-auto" />
         </div>
     );
 };

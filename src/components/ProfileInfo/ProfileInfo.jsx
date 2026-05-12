@@ -11,7 +11,7 @@ const ProfileInfo = () => {
     }
 
     return (
-        <div className="flex-1 bg-secondary rounded-3xl p-6 h-100">
+        <div className="max-3xl:flex-1/2 flex-1 bg-secondary rounded-3xl p-6 h-auto xs:h-100">
             <h4 className="text-white text-xl capitalize font-ubuntuBold">profile information</h4>
             <p className="text-slate-400 capitalize text-sm text-justify font-ubuntuMedium my-7">
                 {description}

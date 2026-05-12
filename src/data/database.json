@@ -137,7 +137,7 @@
             },
             {
                 "id": 3,
-                "name": "total sales",
+                "name": "sales",
                 "value": 2655000,
                 "max": 5000000,
                 "icon": "FaCartShopping",
@@ -735,6 +735,81 @@
             {
                 "id": 3,
                 "tag": "project #3",
+                "title": "minimalist",
+                "description": "different people have different taste, and various types of music.",
+                "cover": "/assets/images/elements/portfolio3.webp",
+                "viewers": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile3.webp"
+                    },
+                    {
+                        "id": 3,
+                        "profile": "/assets/images/elements/profile2.webp"
+                    },
+                    {
+                        "id": 4,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "tag": "project #4",
+                "title": "modern",
+                "description": "as uber works through a huge amount of internal management turmoil.",
+                "cover": "/assets/images/elements/portfolio1.webp",
+                "viewers": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile2.webp"
+                    },
+                    {
+                        "id": 3,
+                        "profile": "/assets/images/elements/profile3.webp"
+                    },
+                    {
+                        "id": 4,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "tag": "project #5",
+                "title": "scandinavian",
+                "description": "music is something that every person has his or her own specific opinion about.",
+                "cover": "/assets/images/elements/portfolio2.webp",
+                "viewers": [
+                    {
+                        "id": 1,
+                        "profile": "/assets/images/elements/profile3.webp"
+                    },
+                    {
+                        "id": 2,
+                        "profile": "/assets/images/elements/profile4.webp"
+                    },
+                    {
+                        "id": 3,
+                        "profile": "/assets/images/elements/profile1.webp"
+                    },
+                    {
+                        "id": 4,
+                        "profile": "/assets/images/elements/profile2.webp"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "tag": "project #6",
                 "title": "minimalist",
                 "description": "different people have different taste, and various types of music.",
                 "cover": "/assets/images/elements/portfolio3.webp",

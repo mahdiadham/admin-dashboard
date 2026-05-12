@@ -84,12 +84,12 @@ const SafetyChart = () => {
     });
 
     return (
-        <div className="flex-[15%] h-85 bg-linear-to-r from-[#0C1034] to-secondary rounded-3xl flex flex-col justify-between items-center p-6">
+        <div className="flex-[15%] sm:h-85 bg-linear-to-r from-[#0C1034] to-secondary rounded-3xl flex flex-col justify-between items-center p-6">
             <h4 className="text-white text-xl capitalize font-ubuntuBold self-start mb-7">
                 {title}
             </h4>
-            <div className="flex justify-between items-center gap-x-4 size-full">
-                <div className="flex flex-col justify-between items-start gap-y-5 w-full *:bg-secondary *:rounded-2xl *:py-4 *:px-5 *:w-full capitalize text-slate-400">
+            <div className="flex justify-between items-center gap-x-4 size-full max-sm:flex-col-reverse">
+                <div className="flex flex-col justify-between items-start gap-5 w-full *:bg-tertiary *:rounded-2xl *:py-4 *:px-5 *:w-full capitalize text-slate-400">
                     <div className="flex flex-col justify-between items-start">
                         <span>
                             invited
@@ -107,7 +107,7 @@ const SafetyChart = () => {
                         </span>
                     </div>
                 </div>
-                <div className="size-60 relative">
+                <div className="size-55 xxs:size-60 relative">
                     <Chart options={options} series={series} type="radialBar" width={"100%"} height={"100%"} />
                     <div className="-translate-1/2 absolute top-1/2 left-1/2 flex flex-col justify-between items-center gap-y-2 text-slate-400 capitalize font-ubuntuBold text-sm">
                         <span>safety</span>

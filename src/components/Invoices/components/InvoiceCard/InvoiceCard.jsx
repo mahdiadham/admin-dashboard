@@ -4,9 +4,9 @@ const InvoiceCard = ({ data }) => {
     const { date, tag, price, link } = data;
 
     return (
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-start xs:items-center">
             <div className="flex flex-col justify-start items-start capitalize font-ubuntuMedium gap-y-1">
-                <span className="text-white text-sm">
+                <span className="text-white text-xs xxs:text-sm">
                     {date}
                 </span>
                 <span className="text-slate-400 text-xs">

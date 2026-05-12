@@ -6,7 +6,7 @@ const CreditBalance = ({ data }) => {
     const { title, balance, img, newest } = data;
 
     return (
-        <div className="flex-1/3 rounded-3xl py-8 px-6 bg-secondary h-65">
+        <div className="flex-1/2 lg:flex-1/3 rounded-3xl py-8 px-6 bg-secondary h-65">
             <div className="bg-[url(../../../public/assets/images/elements/credit-bg.webp)] bg-no-repeat bg-center bg-cover rounded-2xl p-4 h-26">
                 <div className="flex justify-between items-center">
                     <h5 className="capitalize text-[13px] text-white font-ubuntuMedium">
@@ -17,7 +17,7 @@ const CreditBalance = ({ data }) => {
                     </button>
                 </div>
                 <div className="flex justify-between items-start mt-2">
-                    <span className="text-white font-ubuntuBold text-4xl">
+                    <span className="text-white font-ubuntuBold text-3xl xxs:text-4xl">
                         {balance > 0 ? `$${balance.toLocaleString()}` : `-$${balance.toLocaleString().replace("-", "")}`}
                     </span>
                     <img src={img} alt="icon" className="w-15" />
