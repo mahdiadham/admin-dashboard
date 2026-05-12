@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/admin-panel/",
   plugins: [
     react({
       babel: {
@@ -12,4 +13,4 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-})
+});
