@@ -6,9 +6,9 @@ const BreadCrumb = () => {
     const crumbs = matches.filter(match => match.handle?.crumb);
     
     return (
-        <div className="max-xxs:hidden">
+        <div className="max-xs:hidden">
             <div className="flex justify-start items-center gap-x-1 capitalize text-white font-ubuntuMedium">
-                <Link to="/" className="flex justify-between items-center gap-x-1">
+                <Link to="/admin-panel" className="flex justify-between items-center gap-x-1">
                     <IoMdHome className="text-white/60" />
                 </Link>
                 {

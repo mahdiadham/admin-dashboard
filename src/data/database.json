@@ -4,25 +4,25 @@
             "id": 1,
             "title": "dashboard",
             "icon": "IoHome",
-            "link": "/"
+            "link": "/admin-panel"
         },
         {
             "id": 2,
             "title": "tables",
             "icon": "IoStatsChart",
-            "link": "/tables"
+            "link": "tables"
         },
         {
             "id": 3,
             "title": "billing",
             "icon": "FaCreditCard",
-            "link": "/billing"
+            "link": "billing"
         },
         {
             "id": 4,
             "title": "profile",
             "icon": "FaUser",
-            "link": "/profile"
+            "link": "profile"
         }
     ],
     "infoCard": [
@@ -61,7 +61,7 @@
     ],
     "profile": {
         "fullname": "mark johnson",
-        "logo": "/assets/images/elements/profile-logo.webp",
+        "logo": "../public/assets/images/elements/profile-logo.webp",
         "mobile": "1231234123",
         "countryCode": "44",
         "email": "mark@simmmple.com",
@@ -160,23 +160,23 @@
             {
                 "id": 1,
                 "title": "chakra vision UI version",
-                "icon": "/assets/images/elements/adobexd.webp",
+                "icon": "public/assets/images/elements/adobexd.webp",
                 "members": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "public/assets/images/elements/profile1.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile2.webp"
+                        "profile": "public/assets/images/elements/profile2.webp"
                     },
                     {
                         "id": 3,
-                        "profile": "/assets/images/elements/profile3.webp"
+                        "profile": "public/assets/images/elements/profile3.webp"
                     },
                     {
                         "id": 4,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "public/assets/images/elements/profile4.webp"
                     }
                 ],
                 "budget": 14000,
@@ -185,15 +185,15 @@
             {
                 "id": 2,
                 "title": "add Progress track",
-                "icon": "/assets/images/elements/company1.webp",
+                "icon": "public/assets/images/elements/company1.webp",
                 "members": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile2.webp"
+                        "profile": "public/assets/images/elements/profile2.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "public/assets/images/elements/profile4.webp"
                     }
                 ],
                 "budget": 3000,
@@ -202,15 +202,15 @@
             {
                 "id": 3,
                 "title": "fix platform errors",
-                "icon": "/assets/images/elements/company2.webp",
+                "icon": "public/assets/images/elements/company2.webp",
                 "members": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "public/assets/images/elements/profile1.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile3.webp"
+                        "profile": "public/assets/images/elements/profile3.webp"
                     }
                 ],
                 "budget": 0,
@@ -219,23 +219,23 @@
             {
                 "id": 4,
                 "title": "launch our mobile app",
-                "icon": "/assets/images/elements/spotify.webp",
+                "icon": "public/assets/images/elements/spotify.webp",
                 "members": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "public/assets/images/elements/profile4.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile3.webp"
+                        "profile": "public/assets/images/elements/profile3.webp"
                     },
                     {
                         "id": 3,
-                        "profile": "/assets/images/elements/profile2.webp"
+                        "profile": "public/assets/images/elements/profile2.webp"
                     },
                     {
                         "id": 4,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "public/assets/images/elements/profile1.webp"
                     }
                 ],
                 "budget": 20500,
@@ -244,11 +244,11 @@
             {
                 "id": 5,
                 "title": "add the new pricing page",
-                "icon": "/assets/images/elements/company3.webp",
+                "icon": "public/assets/images/elements/company3.webp",
                 "members": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "public/assets/images/elements/profile4.webp"
                     }
                 ],
                 "budget": 500,
@@ -257,15 +257,15 @@
             {
                 "id": 6,
                 "title": "redesign new online shop",
-                "icon": "/assets/images/elements/company4.webp",
+                "icon": "public/assets/images/elements/company4.webp",
                 "members": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "public/assets/images/elements/profile1.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "public/assets/images/elements/profile4.webp"
                     }
                 ],
                 "budget": 2000,
@@ -281,37 +281,37 @@
                 "id": 1,
                 "title": "$2400, design changes",
                 "date": "22 DEC 7:20 PM",
-                "icon": "/assets/images/elements/bell.webp"
+                "icon": "public/assets/images/elements/bell.webp"
             },
             {
                 "id": 2,
                 "title": "new order #1832412",
                 "date": "21 DEC 11 PM",
-                "icon": "/assets/images/elements/html.webp"
+                "icon": "public/assets/images/elements/html.webp"
             },
             {
                 "id": 3,
                 "title": "server payments for april",
                 "date": "21 DEC 9:34 PM",
-                "icon": "/assets/images/elements/basket.webp"
+                "icon": "public/assets/images/elements/basket.webp"
             },
             {
                 "id": 4,
                 "title": "new card added for order #4395133",
                 "date": "20 DEC 2:20 AM",
-                "icon": "/assets/images/elements/card.webp"
+                "icon": "public/assets/images/elements/card.webp"
             },
             {
                 "id": 5,
                 "title": "new card added for order #4395133",
                 "date": "18 DEC 4:54 AM",
-                "icon": "/assets/images/elements/order.webp"
+                "icon": "public/assets/images/elements/order.webp"
             },
             {
                 "id": 6,
                 "title": "new order #9583120",
                 "date": "17 DEC",
-                "icon": "/assets/images/elements/adobexd.webp"
+                "icon": "public/assets/images/elements/adobexd.webp"
             }
         ]
     },
@@ -321,17 +321,17 @@
             {
                 "id": 1,
                 "title": "marketplace",
-                "url": "/"
+                "url": "/admin-panel"
             },
             {
                 "id": 2,
                 "title": "blog",
-                "url": "/"
+                "url": "/admin-panel"
             },
             {
                 "id": 3,
                 "title": "license",
-                "url": "/"
+                "url": "/admin-panel"
             }
         ]
     },
@@ -342,7 +342,7 @@
                 "id": 1,
                 "username": "esthera jackson",
                 "email": "esthera@simmmple.com",
-                "profile": "/assets/images/elements/profile4.webp",
+                "profile": "public/assets/images/elements/profile4.webp",
                 "function": "manager",
                 "job": "organization",
                 "online": true,
@@ -352,7 +352,7 @@
                 "id": 2,
                 "username": "alexa liras",
                 "email": "alexa@simmmple.com",
-                "profile": "/assets/images/elements/profile2.webp",
+                "profile": "public/assets/images/elements/profile2.webp",
                 "function": "programmer",
                 "job": "developer",
                 "online": false,
@@ -362,7 +362,7 @@
                 "id": 3,
                 "username": "laurent michael",
                 "email": "laurent@simmmple.com",
-                "profile": "/assets/images/elements/profile3.webp",
+                "profile": "public/assets/images/elements/profile3.webp",
                 "function": "executive",
                 "job": "projects",
                 "online": true,
@@ -372,7 +372,7 @@
                 "id": 4,
                 "username": "freduardo hill",
                 "email": "freduardo@simmmple.com",
-                "profile": "/assets/images/elements/profile1.webp",
+                "profile": "public/assets/images/elements/profile1.webp",
                 "function": "programmer",
                 "job": "developer",
                 "online": true,
@@ -382,7 +382,7 @@
                 "id": 5,
                 "username": "daniel thomas",
                 "email": "daniel@simmmple.com",
-                "profile": "/assets/images/elements/profile5.webp",
+                "profile": "public/assets/images/elements/profile5.webp",
                 "function": "manager",
                 "job": "executive",
                 "online": false,
@@ -392,7 +392,7 @@
                 "id": 6,
                 "username": "mark wilson",
                 "email": "mark@simmmple.com",
-                "profile": "/assets/images/elements/profile6.webp",
+                "profile": "public/assets/images/elements/profile6.webp",
                 "function": "programmer",
                 "job": "developer",
                 "online": false,
@@ -406,7 +406,7 @@
             {
                 "id": 1,
                 "title": "chakra vision UI version",
-                "icon": "/assets/images/elements/adobexd.webp",
+                "icon": "public/assets/images/elements/adobexd.webp",
                 "budget": 14000,
                 "status": "working",
                 "completion": 60
@@ -414,7 +414,7 @@
             {
                 "id": 2,
                 "title": "add Progress track",
-                "icon": "/assets/images/elements/company1.webp",
+                "icon": "public/assets/images/elements/company1.webp",
                 "budget": 3000,
                 "status": "done",
                 "completion": 100
@@ -422,7 +422,7 @@
             {
                 "id": 3,
                 "title": "fix platform errors",
-                "icon": "/assets/images/elements/company2.webp",
+                "icon": "public/assets/images/elements/company2.webp",
                 "budget": 0,
                 "status": "canceled",
                 "completion": 30
@@ -430,7 +430,7 @@
             {
                 "id": 4,
                 "title": "launch our mobile app",
-                "icon": "/assets/images/elements/spotify.webp",
+                "icon": "public/assets/images/elements/spotify.webp",
                 "budget": 32000,
                 "status": "canceled",
                 "completion": 0
@@ -438,7 +438,7 @@
             {
                 "id": 5,
                 "title": "add the new pricing page",
-                "icon": "/assets/images/elements/company3.webp",
+                "icon": "public/assets/images/elements/company3.webp",
                 "budget": 2300,
                 "status": "done",
                 "completion": 100
@@ -447,7 +447,7 @@
     },
     "creditCard": {
         "title": "vision UI",
-        "icon": "/assets/images/elements/visaIcon.webp",
+        "icon": "public/assets/images/elements/visaIcon.webp",
         "number": "7812213908237916",
         "exp": "05/24",
         "cvv": "128"
@@ -455,7 +455,7 @@
     "creditBalance": {
         "title": "credit balance",
         "balance": 25215,
-        "img": "/assets/images/elements/path.webp",
+        "img": "public/assets/images/elements/path.webp",
         "newest": [
             {
                 "id": 1,
@@ -469,12 +469,12 @@
         {
             "id": 1,
             "cardNumber": "7812213908237916",
-            "icon": "/assets/images/elements/visa-icon2.webp"
+            "icon": "public/assets/images/elements/visa-icon2.webp"
         },
         {
             "id": 2,
             "cardNumber": "7812213908237916",
-            "icon": "/assets/images/elements/visa-icon3.webp"
+            "icon": "public/assets/images/elements/visa-icon3.webp"
         }
     ],
     "invoices": [
@@ -687,23 +687,23 @@
                 "tag": "project #1",
                 "title": "modern",
                 "description": "as uber works through a huge amount of internal management turmoil.",
-                "cover": "/assets/images/elements/portfolio1.webp",
+                "cover": "../public/assets/images/elements/portfolio1.webp",
                 "viewers": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "../public/assets/images/elements/profile1.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile2.webp"
+                        "profile": "../public/assets/images/elements/profile2.webp"
                     },
                     {
                         "id": 3,
-                        "profile": "/assets/images/elements/profile3.webp"
+                        "profile": "../public/assets/images/elements/profile3.webp"
                     },
                     {
                         "id": 4,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "../public/assets/images/elements/profile4.webp"
                     }
                 ]
             },
@@ -712,23 +712,23 @@
                 "tag": "project #2",
                 "title": "scandinavian",
                 "description": "music is something that every person has his or her own specific opinion about.",
-                "cover": "/assets/images/elements/portfolio2.webp",
+                "cover": "../public/assets/images/elements/portfolio2.webp",
                 "viewers": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile3.webp"
+                        "profile": "../public/assets/images/elements/profile3.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "../public/assets/images/elements/profile4.webp"
                     },
                     {
                         "id": 3,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "../public/assets/images/elements/profile1.webp"
                     },
                     {
                         "id": 4,
-                        "profile": "/assets/images/elements/profile2.webp"
+                        "profile": "../public/assets/images/elements/profile2.webp"
                     }
                 ]
             },
@@ -737,23 +737,23 @@
                 "tag": "project #3",
                 "title": "minimalist",
                 "description": "different people have different taste, and various types of music.",
-                "cover": "/assets/images/elements/portfolio3.webp",
+                "cover": "../public/assets/images/elements/portfolio3.webp",
                 "viewers": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "../public/assets/images/elements/profile4.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile3.webp"
+                        "profile": "../public/assets/images/elements/profile3.webp"
                     },
                     {
                         "id": 3,
-                        "profile": "/assets/images/elements/profile2.webp"
+                        "profile": "../public/assets/images/elements/profile2.webp"
                     },
                     {
                         "id": 4,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "../public/assets/images/elements/profile1.webp"
                     }
                 ]
             },
@@ -762,23 +762,23 @@
                 "tag": "project #4",
                 "title": "modern",
                 "description": "as uber works through a huge amount of internal management turmoil.",
-                "cover": "/assets/images/elements/portfolio1.webp",
+                "cover": "../public/assets/images/elements/portfolio1.webp",
                 "viewers": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "../public/assets/images/elements/profile1.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile2.webp"
+                        "profile": "../public/assets/images/elements/profile2.webp"
                     },
                     {
                         "id": 3,
-                        "profile": "/assets/images/elements/profile3.webp"
+                        "profile": "../public/assets/images/elements/profile3.webp"
                     },
                     {
                         "id": 4,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "../public/assets/images/elements/profile4.webp"
                     }
                 ]
             },
@@ -787,23 +787,23 @@
                 "tag": "project #5",
                 "title": "scandinavian",
                 "description": "music is something that every person has his or her own specific opinion about.",
-                "cover": "/assets/images/elements/portfolio2.webp",
+                "cover": "../public/assets/images/elements/portfolio2.webp",
                 "viewers": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile3.webp"
+                        "profile": "../public/assets/images/elements/profile3.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "../public/assets/images/elements/profile4.webp"
                     },
                     {
                         "id": 3,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "../public/assets/images/elements/profile1.webp"
                     },
                     {
                         "id": 4,
-                        "profile": "/assets/images/elements/profile2.webp"
+                        "profile": "../public/assets/images/elements/profile2.webp"
                     }
                 ]
             },
@@ -812,23 +812,23 @@
                 "tag": "project #6",
                 "title": "minimalist",
                 "description": "different people have different taste, and various types of music.",
-                "cover": "/assets/images/elements/portfolio3.webp",
+                "cover": "../public/assets/images/elements/portfolio3.webp",
                 "viewers": [
                     {
                         "id": 1,
-                        "profile": "/assets/images/elements/profile4.webp"
+                        "profile": "../public/assets/images/elements/profile4.webp"
                     },
                     {
                         "id": 2,
-                        "profile": "/assets/images/elements/profile3.webp"
+                        "profile": "../public/assets/images/elements/profile3.webp"
                     },
                     {
                         "id": 3,
-                        "profile": "/assets/images/elements/profile2.webp"
+                        "profile": "../public/assets/images/elements/profile2.webp"
                     },
                     {
                         "id": 4,
-                        "profile": "/assets/images/elements/profile1.webp"
+                        "profile": "../public/assets/images/elements/profile1.webp"
                     }
                 ]
             }

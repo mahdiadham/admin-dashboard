@@ -14,7 +14,7 @@ const NotFound = lazy(() => import("../../pages/Error/404/NotFound"));
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/admin-panel",
         element: <PrivateRouter />,
         children: [
             {
@@ -46,16 +46,19 @@ const router = createBrowserRouter([
                             },
                             {
                                 path: "overview",
-                                element: <Overview />
+                                element: <Overview />,
+                                handle: { crumb: "overview" }
                             },
                             {
                                 path: "teams",
-                                element: <Overview />
+                                element: <Overview />,
+                                handle: { crumb: "teams" }
                                 // element: <Teams />
                             },
                             {
                                 path: "projects",
-                                element: <Overview />
+                                element: <Overview />,
+                                handle: { crumb: "projects" }
                                 // element: <Projects />
                             },
                         ]

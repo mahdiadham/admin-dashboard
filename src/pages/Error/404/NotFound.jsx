@@ -10,7 +10,7 @@ const NotFound = () => {
             <h2 className="text-white font-ubuntuBold text-8xl">404</h2>
             <h3 className="text-white font-ubuntuMedium text-3xl capitalize mt-4">page not found !</h3>
             <Link
-                to="/"
+                to="/admin-panel"
                 className="text-black capitalize flex items-center justify-center gap-2 mt-10 bg-white py-3 px-5 rounded-xl hover:-translate-y-1 transition font-ubuntuBold" replace>
                     back to home page
                     <FaArrowRight />

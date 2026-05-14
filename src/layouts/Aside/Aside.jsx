@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router";
+import { Link, NavLink, useLocation } from "react-router";
 import { Activity } from "react";
 import clsx from "clsx";
 import Logo from "../../../public/assets/images/logo/logo.png";
@@ -15,10 +15,13 @@ const Aside = ({ isOpen, setIsOpen }) => {
         FaUser: FaUser
     }
 
+    const { pathname } = useLocation();
+    const lastPathnameChar = pathname.split("")[pathname.split("").length - 1];
+
     return (
         <>
             <aside className={"hidden md:w-max xl:w-90! h-screen sticky top-0 left-0 bottom-0 md:flex flex-col justify-start items-center py-5"}>
-                <Link to="/" className="flex justify-center items-center gap-x-2 mt-5 relative before:absolute before:top-10 before:w-full before:h-px before:bg-linear-to-r before:from-slate-500/5 before:via-slate-500 before:to-slate-500/5">
+                <Link to="/admin-panel" className="flex justify-center items-center gap-x-2 mt-5 relative before:absolute before:top-10 before:w-full before:h-px before:bg-linear-to-r before:from-slate-500/5 before:via-slate-500 before:to-slate-500/5">
                     <img src={Logo} alt="Logo" />
                     <h3 className="max-xl:hidden uppercase tracking-widest bg-linear-to-r from-white via-white to-white/30 bg-clip-text text-transparent">
                         admin dashboard
@@ -31,7 +34,7 @@ const Aside = ({ isOpen, setIsOpen }) => {
                                     const Icon = icons[nav.icon];
                                     return (
                                         <li key={nav.id}>
-                                            <NavLink title={nav?.title.toUpperCase()} to={nav.link} className={({ isActive }) => clsx("flex justify-start items-center gap-x-3 px-4 py-3 rounded-2xl transition duration-150 capitalize font-ubuntuMedium **:transition **:duration-150 text-white", isActive && "bg-white/10 **:[svg]:fill-white *:[div]:bg-primary backdrop-blur-2xl text-white")}>
+                                            <NavLink title={nav?.title.toUpperCase()} to={nav.link} className={({ isActive }) => clsx("flex justify-start items-center gap-x-3 px-4 py-3 rounded-2xl transition duration-150 capitalize font-ubuntuMedium **:transition **:duration-150 text-white", isActive && "bg-white/10 **:[svg]:fill-white *:[div]:bg-primary backdrop-blur-2xl text-white")} end={nav.link === "/admin-panel" && lastPathnameChar !== "/"}>
                                                 <div className="size-8 bg-white/10 rounded-xl p-2 flex justify-center items-center text-primary">
                                                     <Icon />
                                                 </div>
@@ -50,7 +53,7 @@ const Aside = ({ isOpen, setIsOpen }) => {
                 <button className="self-end mr-5 text-white cursor-pointer *:size-5" onClick={() => setIsOpen(!isOpen)}>
                     <IoClose />
                 </button>
-                <Link to="/" className="flex justify-center items-center gap-x-2 mt-5 relative before:absolute before:top-10 before:w-full before:h-px before:bg-linear-to-r before:from-slate-500/5 before:via-slate-500 before:to-slate-500/5">
+                <Link to="/admin-panel" className="flex justify-center items-center gap-x-2 mt-5 relative before:absolute before:top-10 before:w-full before:h-px before:bg-linear-to-r before:from-slate-500/5 before:via-slate-500 before:to-slate-500/5">
                     <img src={Logo} alt="Logo" />
                     <h3 className="uppercase tracking-widest bg-linear-to-r from-white via-white to-white/30 bg-clip-text text-transparent">
                         admin dashboard
@@ -63,7 +66,7 @@ const Aside = ({ isOpen, setIsOpen }) => {
                                     const Icon = icons[nav.icon];
                                     return (
                                         <li key={nav.id}>
-                                            <NavLink title={nav?.title.toUpperCase()} to={nav.link} className={({ isActive }) => clsx("flex justify-start items-center gap-x-3 px-4 py-3 rounded-2xl transition duration-150 capitalize font-ubuntuMedium **:transition **:duration-150 text-white", isActive && "bg-white/10 **:[svg]:fill-white *:[div]:bg-primary backdrop-blur-2xl text-white")} onClick={() => setIsOpen(!isOpen)}>
+                                            <NavLink title={nav?.title.toUpperCase()} to={nav.link} className={({ isActive }) => clsx("flex justify-start items-center gap-x-3 px-4 py-3 rounded-2xl transition duration-150 capitalize font-ubuntuMedium **:transition **:duration-150 text-white", isActive && "bg-white/10 **:[svg]:fill-white *:[div]:bg-primary backdrop-blur-2xl text-white")} onClick={() => setIsOpen(!isOpen)} end={nav.link === "/admin-panel"}>
                                                 <div className="size-8 bg-white/10 rounded-xl p-2 flex justify-center items-center text-primary">
                                                     <Icon />
                                                 </div>
