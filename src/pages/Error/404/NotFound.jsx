@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { FaArrowRight } from "react-icons/fa";
 import styles from "./NotFound.module.css";
-import vector from "../../../../public/assets/images/elements/vector.webp"
+import vector from "/assets/images/elements/vector.webp"
 
 const NotFound = () => {
     return (

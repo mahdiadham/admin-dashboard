@@ -42,13 +42,13 @@
 
 @layer utilities {
     .jellyfish {
-        background: url("../public/assets/images/elements/jellyfish.webp") no-repeat center / cover;
+        background: url("/assets/images/elements/jellyfish.webp") no-repeat center / cover;
     }
     .introBg {
-        background: url("../public/assets/images/elements/profile-bg.webp") no-repeat center / cover;
+        background: url("/assets/images/elements/profile-bg.webp") no-repeat center / cover;
     }
     .creditBg {
-        background: url("../public/assets/images/elements/cardBg.webp") no-repeat top left;
+        background: url("/assets/images/elements/cardBg.webp") no-repeat top left;
         @media (max-width:1024px) {
             background-size: cover;
         }

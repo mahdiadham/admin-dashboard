@@ -1,7 +1,7 @@
 import { Link, NavLink, useLocation } from "react-router";
 import { Activity } from "react";
 import clsx from "clsx";
-import Logo from "../../../public/assets/images/logo/logo.png";
+import Logo from "/assets/images/logo/logo.png";
 import { menu } from "../../data/database.json";
 import { IoClose, IoHome, IoStatsChart } from "react-icons/io5";
 import { FaCreditCard } from "react-icons/fa6";
