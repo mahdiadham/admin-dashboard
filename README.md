@@ -2,7 +2,7 @@
 A Modern Admin Dashboard Template With ReactJS
 
 ## Technologies :
-<code>ReactJS</code>, <code>TailwindCSS</code>, <code>Apex Charts</code>
+<img src="https://skillicons.dev/icons?i=react,tailwindcss&perline=2" />, <code>Apex Charts</code>
 
 ## Instructions
 1. Clone the repository first and install the requirements packages :
