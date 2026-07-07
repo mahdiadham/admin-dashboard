@@ -2,7 +2,7 @@
 A Modern Admin Dashboard Template With ReactJS
 
 ## Technologies :
-<img src="https://skillicons.dev/icons?i=react,tailwindcss&perline=2" /> <img width=48 height=48 style="border-radius:16px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn05LHhDN3wG06M28G1mciv1YeIoXDa5l6w2VjjU1sQI8lxYJPuVH4zPE&s=10" />
+<img src="https://skillicons.dev/icons?i=react,tailwindcss&perline=2" /> <img width=48 height=48 style="border-radius:48px; overflow:hidden" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn05LHhDN3wG06M28G1mciv1YeIoXDa5l6w2VjjU1sQI8lxYJPuVH4zPE&s=10" />
 
 ## Instructions
 1. Clone the repository first and install the requirements packages :
