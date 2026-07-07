@@ -23,22 +23,22 @@ const router = createBrowserRouter([
                     {
                         index: true,
                         element: <Dashboard />,
-                        handle: { crumb: "dashboard" }
+                        handle: { crumb: "Dashboard" }
                     },
                     {
                         path: "tables",
                         element: <Tables />,
-                        handle: { crumb: "tables" }
+                        handle: { crumb: "Tables" }
                     },
                     {
                         path: "billing",
                         element: <Billing />,
-                        handle: { crumb: "billing" }
+                        handle: { crumb: "Billing" }
                     },
                     {
                         path: "profile",
                         element: <Profile />,
-                        handle: { crumb: "profile" },
+                        handle: { crumb: "Profile" },
                         children: [
                             {
                                 index: true,
@@ -47,18 +47,18 @@ const router = createBrowserRouter([
                             {
                                 path: "overview",
                                 element: <Overview />,
-                                handle: { crumb: "overview" }
+                                handle: { crumb: "Overview" }
                             },
                             {
                                 path: "teams",
                                 element: <Overview />,
-                                handle: { crumb: "teams" }
+                                handle: { crumb: "Teams" }
                                 // element: <Teams />
                             },
                             {
                                 path: "projects",
                                 element: <Overview />,
-                                handle: { crumb: "projects" }
+                                handle: { crumb: "Projects" }
                                 // element: <Projects />
                             },
                         ]
