@@ -1,7 +1,7 @@
 # Admin Dashboard Template
 A Modern Admin Dashboard Template With ReactJS
 
-##Technologies :
+## Technologies :
 <code>ReactJS</code>, <code>TailwindCSS</code>, <code>Apex Charts</code>
 
 ## Instructions
