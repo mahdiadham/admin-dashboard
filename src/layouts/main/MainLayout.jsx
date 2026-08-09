@@ -7,10 +7,12 @@ import Aside from "../Aside/Aside";
 
 const MainLayout = () => {
     const [ isOpen, setIsOpen ] = useState(false);
-    useTitle();
 
     return (
         <>
+            <title>
+                {useTitle()}
+            </title>
             <ScrollRestoration />
             <section className="flex justify-between items-start">
                 <Aside isOpen={isOpen} setIsOpen={setIsOpen} />
